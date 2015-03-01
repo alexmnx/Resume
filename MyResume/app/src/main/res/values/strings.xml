@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My.Resume</string>
+    <string name="app_data">My.Data</string>
+    <string name="app_aim">My.Aim</string>
+    <string name="app_knowledge">My.Knowledge</string>
+    <string name="app_experience">My.Experience</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

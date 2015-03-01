@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.resume.myresume" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".StartLaunch"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RadialControllerMain"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+            <intent-filter> />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyDataActivity"
+            android:label="@string/app_data"
+            android:screenOrientation="landscape">
+            <intent-filter> />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyAimActivity"
+            android:label="@string/app_aim"
+            android:screenOrientation="landscape">
+            <intent-filter> />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyExperienceActivity"
+            android:label="@string/app_experience"
+            android:screenOrientation="landscape">
+            <intent-filter> />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyKnowledgeActivity"
+            android:label="@string/app_knowledge"
+            android:screenOrientation="landscape">
+            <intent-filter> />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

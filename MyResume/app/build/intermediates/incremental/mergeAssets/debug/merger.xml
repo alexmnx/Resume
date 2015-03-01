@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Repo\MyResume\app\src\main\assets" >
+            <file
+                name="fonts/exo.ttf"
+                path="C:\Repo\MyResume\app\src\main\assets\fonts\exo.ttf" />
+            <file
+                name="fonts/Roboto-Thin.ttf"
+                path="C:\Repo\MyResume\app\src\main\assets\fonts\Roboto-Thin.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Repo\MyResume\app\src\debug\assets" />
+    </dataSet>
+
+</merger>

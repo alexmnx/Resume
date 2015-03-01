@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Repo\MyResume\app\src\main\res" >
+            <file
+                name="android_black"
+                path="C:\Repo\MyResume\app\src\main\res\drawable-hdpi\android_black.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="experience"
+                path="C:\Repo\MyResume\app\src\main\res\drawable-hdpi\experience.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon_app"
+                path="C:\Repo\MyResume\app\src\main\res\drawable-hdpi\icon_app.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="knowledge"
+                path="C:\Repo\MyResume\app\src\main\res\drawable-hdpi\knowledge.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="man"
+                path="C:\Repo\MyResume\app\src\main\res\drawable-hdpi\man.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon_app"
+                path="C:\Repo\MyResume\app\src\main\res\drawable-mdpi\icon_app.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="icon_app"
+                path="C:\Repo\MyResume\app\src\main\res\drawable-xhdpi\icon_app.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="icon_app"
+                path="C:\Repo\MyResume\app\src\main\res\drawable-xxhdpi\icon_app.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="my_aim_activity"
+                path="C:\Repo\MyResume\app\src\main\res\layout\my_aim_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="my_data_activity"
+                path="C:\Repo\MyResume\app\src\main\res\layout\my_data_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="my_experience_activity"
+                path="C:\Repo\MyResume\app\src\main\res\layout\my_experience_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="my_knowledge_activity"
+                path="C:\Repo\MyResume\app\src\main\res\layout\my_knowledge_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="radial_controller_main"
+                path="C:\Repo\MyResume\app\src\main\res\layout\radial_controller_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="start_launch"
+                path="C:\Repo\MyResume\app\src\main\res\layout\start_launch.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="start_launch"
+                path="C:\Repo\MyResume\app\src\main\res\menu\start_launch.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Repo\MyResume\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Repo\MyResume\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_data" >My.Data
+                </string>
+                <string name="app_knowledge" >My.Knowledge
+                </string>
+                <string name="app_aim" >My.Aim
+                </string>
+                <string name="app_name" >My.Resume
+                </string>
+                <string name="app_experience" >My.Experience
+                </string>
+            </file>
+            <file
+                path="C:\Repo\MyResume\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Repo\MyResume\app\src\main\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+        </source>
+        <source path="C:\Repo\MyResume\app\build\generated\res\rs\release" />
+        <source path="C:\Repo\MyResume\app\build\generated\res\generated\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="C:\Repo\MyResume\app\src\release\res" />
+    </dataSet>
+
+</merger>
